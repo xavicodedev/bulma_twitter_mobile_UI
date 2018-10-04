@@ -1,6 +1,5 @@
-# Project Title
-
-One Paragraph of project description goes here
+# Bulma Mobile UI
+Simple mobile UI made with bulma.io
 
 ## Getting Started
 
