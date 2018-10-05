@@ -1,0 +1,34 @@
+{
+  "name": "bulma_twitter_ui",
+  "version": "1.0.0",
+  "description": "Twitter mobile UI made with bulma",
+  "main": "sass/mystyles.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xavigc7/bulma_dashboard.git"
+  },
+  "keywords": [
+    "bulma",
+    "twitter",
+    "mobile",
+    "UI"
+  ],
+  "author": "Xavier Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xavigc7/bulma_dashboard/issues"
+  },
+  "homepage": "https://github.com/xavigc7/bulma_dashboard#readme",
+  "devDependencies": {
+    "bulma": "^0.7.1",
+    "node-sass": "^4.9.3"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  }
+}

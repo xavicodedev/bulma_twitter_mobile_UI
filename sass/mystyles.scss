@@ -1,0 +1,66 @@
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set your brand colors
+
+
+// Card variables
+$card-shadow: none;
+
+
+// Update some of Bulma's component variables
+
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/form.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+
+html{
+
+}
+
+.cards{
+   padding-top: 50px;
+}
+
+.navbar--icon{
+    width: 5%´
+}
+
+.card--content--reply{
+    padding-top: 0px;
+}
+
+.card--reply{
+   box-shadow: transparent !important;
+}
+
+.card--image{
+   margin: 5px;
+   border-radius: 15px;
+}
+
+.card--image-rounded{
+   border-radius: 100%;
+}
+
+.line-in-middle {
+    margin-top: 10px;
+   height:400px;
+     background: linear-gradient(to right, 
+                                 transparent 0%, 
+                                 transparent calc(50% - 0.81px), 
+                                 rgb(185, 184, 186) calc(50% - 0.8px), 
+                                 rgb(185, 184, 186)     calc(50% + 0.8px), 
+                                 transparent calc(50% + 0.81px), 
+                                 transparent 100%); 
+   }
