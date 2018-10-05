@@ -8,7 +8,9 @@
 
 
 // Card variables
-$card-shadow: none;
+$card-shadow: transparent;
+
+$card-footer-border-top: transparent;
 
 
 // Update some of Bulma's component variables
@@ -23,6 +25,8 @@ $card-shadow: none;
 @import "../node_modules/bulma/sass/elements/title.sass";
 @import "../node_modules/bulma/sass/layout/hero.sass";
 @import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/sass/components/card.sass";
+
 
 html{
 
@@ -37,11 +41,8 @@ html{
 }
 
 .card--content--reply{
-    padding-top: 0px;
-}
 
-.card--reply{
-   box-shadow: transparent !important;
+
 }
 
 .card--image{
@@ -54,7 +55,7 @@ html{
 }
 
 .line-in-middle {
-    margin-top: 10px;
+    margin-top: 20px;
    height:400px;
      background: linear-gradient(to right, 
                                  transparent 0%, 
