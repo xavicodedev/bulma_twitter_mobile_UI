@@ -7,10 +7,42 @@ html{
  }
 
  .navbar--icon{
-     width: 5%
+     width: 5%´
+ }
+
+ .card--content--reply{
+     padding-top: 0px;
+ }
+
+ .card2 {
+    background-color: #fff;
+    /* box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1); */
+    color: #4a4a4a;
+    max-width: 100%;
+    position: relative;
+}
+
+ .card--reply{
+    box-shadow: transparent !important;
  }
 
  .card--image{
-     margin: 5px;
-     border-radius: 7%;
+    margin: 5px;
+    border-radius: 15px;
  }
+
+ .card--image-rounded{
+    border-radius: 100%;
+ }
+
+ .line-in-middle {
+     margin-top: 10px;
+    height:400px;
+	  background: linear-gradient(to right, 
+	                              transparent 0%, 
+	                              transparent calc(50% - 0.81px), 
+	                              rgb(185, 184, 186) calc(50% - 0.8px), 
+	                              rgb(185, 184, 186)     calc(50% + 0.8px), 
+	                              transparent calc(50% + 0.81px), 
+	                              transparent 100%); 
+	}
