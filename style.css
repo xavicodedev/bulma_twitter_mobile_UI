@@ -1,0 +1,16 @@
+html{
+
+ }
+
+ .cards{
+    padding-top: 50px;
+ }
+
+ .navbar--icon{
+     width: 5%
+ }
+
+ .card--image{
+     margin: 5px;
+     border-radius: 7%;
+ }
